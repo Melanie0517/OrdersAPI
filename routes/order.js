@@ -86,7 +86,7 @@ export const orderRouter =
     )
 
     // this method attempts to delete orders from the mulesoft api. We need to pass in order ID. If not this will not work.
-    app.delete(
+    app.put(
         '/orders', 
         query('orderId').trim().isInt().not().isEmpty(), 
         async (req, res) => {
@@ -96,12 +96,12 @@ export const orderRouter =
                 const response = await fetch(
                     `${baseUrl}/orders`,
                     {
-                        method: "delete",
+                        method: "put",
                         headers: {
                             "Content-type": "application/json",
                             "accessToken": token
                         },
-                        body: orderId
+                        body: JSON.stringify(req.body)
                     }
                 );
             

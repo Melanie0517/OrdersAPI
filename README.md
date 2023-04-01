@@ -6,6 +6,16 @@ Orders API is an assessment api I created for testing purposes.
 
 Please use node version 14 for this project
 
+## Usage
+
+To run this project, please run:
+
+```bash
+node server.js
+```
+
+navigate to your localhost and use port 8081. Alternatively , you can update the port if the currently defined one 8081 is in use.
+
 ## Contributing
 
 For major changes, please open an issue first
