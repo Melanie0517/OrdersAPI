@@ -1,37 +1,18 @@
 # Orders API
 
-Orders API is an assessment api I created for testing purposes. This will be set to private after a month as it is not meant to be consumed for public use.
+Orders API is an assessment api I created for testing purposes.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+Please use node version 14 for this project
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first
+For major changes, please open an issue first
 to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+This will be set to private after a month as it is not meant to be consumed for public use.
